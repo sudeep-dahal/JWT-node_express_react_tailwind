@@ -1,0 +1,26 @@
+GET  http://localhost:5000/users
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name":"Sudeep",
+    "email":"test1@test.com",
+    "password":"123456",
+    "confpassword":"123456"
+}
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    
+    "email":"test1@test.com",
+    "password":"12345",
+    
+}
+
+
